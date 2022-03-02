@@ -1,76 +1,78 @@
 ---
-title: Intro to ether
-description: A developer's introduction to the ether cryptocurrency.
-lang: en
+titolo: Introdución a ether
+descripción: Introducción de un desarrollador a la criptomoneda ether.
+lang: es
 sidebar: true
 ---
 
-## Prerequisites {#prerequisites}
+## Prerequisitos {#prerequisitos}
 
-To help you better understand this page, we recommend you first read [Introduction to Ethereum](/developers/docs/intro-to-ethereum/).
+Para entender mejor esta pagina, te recomendamos leer primero [Introduction to Ethereum](/developers/docs/intro-to-ethereum/).
 
-## What is a cryptocurrency? {#what-is-a-cryptocurrency}
+## Que es una criptomoneda? {#Que-es-una-criptomoneda}
 
-A cryptocurrency is a medium of exchange secured by a blockchain-based ledger.
+Una criptomoneda es un medio de intercambio asegurado por un ledger basado en blockchain.
 
-A medium of exchange is anything widely accepted as payment for goods and services, and a ledger is a data store that keeps track of transactions. Blockchain technology allows users to make transactions on the ledger without reliance upon a trusted third party to maintain the ledger.
+Un medio de intercambio es cualquier cosa ampliamente aceptada como pago por bienes y servicios, y un libro de contabilidad es un almacén de datos que mantiene un registro de las transacciones. La tecnología Blockchain permite a los usuarios realizar transacciones en el libro de contabilidad sin depender de un tercero de confianza para mantener el libro de contabilidad.
 
-The first cryptocurrency was Bitcoin, created by Satoshi Nakamoto. Since Bitcoin's release in 2009, people have made thousands of cryptocurrencies across many different blockchains.
+La primera criptomoneda fue Bitcoin, creada por Satoshi Nakamoto. Desde el lanzamiento de Bitcoin en 2009, la gente ha creado miles de criptodivisas en muchas cadenas de bloques diferentes.
 
-## What is ether? {#what-is-ether}
+## ¿Qué es el éter? {#what-is-ether}
 
-**Ether (ETH)** is the cryptocurrency used for many things on the Ethereum network. Fundamentally, it is the only acceptable form of payment for transaction fees, and after [The Merge](/upgrades/merge) is also required in order to validate and propose blocks on Mainnet. Ether is also used as a primary form of collateral in the [DeFi](/defi) lending markets, as a unit of account in NFT marketplaces, as payment earned for performing services or selling real-world goods, and more.
+**Ether (ETH)** es la criptomoneda utilizada para muchas cosas en la red Ethereum. Fundamentalmente, es la única forma de pago aceptable para las tarifas de las transacciones, y después de [La Fusión](/upgrades/merge) también se requiere para validar y proponer bloques en Mainnet. El éter también se utiliza como forma principal de garantía en los mercados de préstamos [DeFi](/defi), como unidad de cuenta en los mercados NFT, como pago obtenido por la realización de servicios o la venta de bienes del mundo real, y mucho más.
 
-Ethereum allows developers to create [**decentralized applications (dapps)**](/developers/docs/dapps), which all share a pool of computing power. This shared pool is finite, so Ethereum needs a mechanism to determine who gets to use it. Otherwise, a dapp could accidentally or maliciously consume all network resources, which would block others from accessing it.
+Ethereum permite a los desarrolladores crear [**aplicaciones descentralizadas (dapps)**](/desarrolladores/docs/dapps), que comparten un conjunto de potencia de cálculo. Esta reserva compartida es finita, por lo que Ethereum necesita un mecanismo para determinar quién puede utilizarla. De lo contrario, una dapp podría consumir accidentalmente o de forma maliciosa todos los recursos de la red, lo que bloquearía el acceso de los demás.
 
-The ether cryptocurrency supports a pricing mechanism for Ethereum's computing power. When users want to make a transaction, they must pay ether to have their transaction recognized on the blockchain. These usage costs are known as [gas fees](/developers/docs/gas/), and the gas fee depends on the amount of computing power required to execute the transaction and the network-wide demand for computing power at the time.
+La criptomoneda ether soporta un mecanismo de precios para la potencia de cálculo de Ethereum. Cuando los usuarios quieren hacer una transacción, deben pagar ether para que su transacción sea reconocida en la blockchain. Estos costes de uso se conocen como [tasas de gas](/developers/docs/gas/), y la tasa de gas depende de la cantidad de potencia de cálculo necesaria para ejecutar la transacción y de la demanda de potencia de cálculo en toda la red en ese momento.
 
-Therefore, even if a malicious dapp submitted an infinite loop, the transaction would eventually run out of ether and terminate, allowing the network to return to normal.
+Por lo tanto, incluso si una dapp maliciosa presentara un bucle infinito, la transacción acabaría quedándose sin éter y terminaría, permitiendo que la red volviera a la normalidad.
 
-It is [common](https://www.reuters.com/article/us-crypto-currencies-lending-insight-idUSKBN25M0GP#:~:text=price%20of%20ethereum) [to](https://abcnews.go.com/Business/bitcoin-slumps-week-low-amid-renewed-worries-chinese/story?id=78399845#:~:text=cryptocurrencies%20including%20ethereum) [conflate](https://www.cnn.com/2021/03/14/tech/nft-art-buying/index.html#:~:text=price%20of%20ethereum) Ethereum and ether — when people reference the "price of Ethereum," they are describing the price of ether.
+Es [común](https://www.reuters.com/article/us-crypto-currencies-lending-insight-idUSKBN25M0GP#:~:text=price%20of%20ethereum) [to](https://abcnews.go.com/Business/bitcoin-slumps-week-low-amid-renewed-worries-chinese/story?id=78399845#:~:text=cryptocurrencies%20including%20ethereum) [conflate](https://www.cnn.com/2021/03/14/tech/nft-art-buying/index.html#:~:text=price%20of%20ethereum) Ethereum y éter - cuando la gente hace referencia al "precio de Ethereum", están describiendo el precio del éter.
 
-## Minting ether {#minting-ether}
+## Acuñación del éter {#minting-ether}
 
-Minting is the process in which new ether gets created on the Ethereum ledger. The underlying Ethereum protocol creates the new ether, and it is not possible for a user to create ether.
+La acuñación es el proceso en el que se crea nuevo éter en el libro mayor de Ethereum. El protocolo subyacente de Ethereum crea el nuevo éter, y no es posible que un usuario cree éter.
 
-Ether is minted when a miner creates a block on the Ethereum blockchain. As an incentive to miners, the protocol grants a reward in each block, incrementing the balance of an address set by the block's miner. The block reward has changed over time, and today it is 2 ETH per block.
+El éter se acuña cuando un minero crea un bloque en la cadena de bloques de Ethereum. Como incentivo para los mineros, el protocolo concede una recompensa en cada bloque, incrementando el saldo de una dirección establecida por el minero del bloque. La recompensa por bloque ha cambiado con el tiempo, y hoy en día es de 2 ETH por bloque.
 
-## Burning ether {#burning-ether}
+## Quemar éter {#burning-ether}
 
-As well as creating ether through block rewards, ether can get destroyed by a process called 'burning'. When ether gets burned, it gets removed from circulation permanently.
+Además de crear éter a través de las recompensas de los bloques, el éter puede destruirse mediante un proceso llamado "quema". Cuando el éter se quema, se retira de la circulación de forma permanente.
 
-Ether burn occurs in every transaction on Ethereum. When users pay for their transactions, their base gas fee gets destroyed by the protocol. Depending on network demand, [some blocks](https://etherscan.io/block/12965263) burn more ether than they mint.
+La quema de éter se produce en cada transacción en Ethereum. Cuando los usuarios pagan por sus transacciones, el protocolo destruye el éter base. Dependiendo de la demanda de la red, [algunos bloques](https://etherscan.io/block/12965263) queman más éter del que acuñan.
 
-## Denominations of ether {#denominations}
 
-Since many transactions on Ethereum are small, ether has several denominations which may be referenced for smaller amounts. Of these denominations, Wei and gwei are particularly important.
+## Denominaciones de ether {#denominaciones}
 
-Wei is the smallest possible amount of ether, and as a result, many technical implementations, such as the [Ethereum Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf), will base all calculations in Wei.
+Dado que muchas transacciones en Ethereum son pequeñas, el ether tiene varias denominaciones que pueden ser referenciadas para cantidades más pequeñas. De estas denominaciones, Wei y gwei son particularmente importantes.
 
-Gwei, short for giga-wei, is often used to describe gas costs on Ethereum.
+Wei es la cantidad más pequeña posible de ether, y como resultado, muchas implementaciones técnicas, como el [Ethereum Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf), basarán todos los cálculos en Wei.
 
-| Denomination | Value in ether   | Common Usage              |
+Gwei, abreviatura de giga-wei, se utiliza a menudo para describir los costes de gas en Ethereum.
+
+
+| Denominacion | Valor en ether   | Uso Comun                 |
 | ------------ | ---------------- | ------------------------- |
 | Wei          | 10<sup>-18</sup> | Technical implementations |
 | Gwei         | 10<sup>-9</sup>  | Human-readable gas fees   |
 
-## Transferring ether {#transferring-ether}
+## Transferencia de éter {#transferring-ether}
 
-Each transaction on Ethereum contains a `value` field, which specifies the amount of ether to be transferred, denominated in wei, to send from the sender's address to the recipient address.
+Cada transacción en Ethereum contiene un campo `valor`, que especifica la cantidad de ether a transferir, denominada en wei, para enviar desde la dirección del remitente a la del destinatario.
 
-When the recipient address is a [smart contract](/developers/docs/smart-contracts/), this transferred ether may be used to pay for gas when the smart contract executes its code.
+Cuando la dirección del destinatario es un [contrato inteligente](/developers/docs/smart-contracts/), este éter transferido puede utilizarse para pagar el gas cuando el contrato inteligente ejecuta su código.
 
-[More on transactions](/developers/docs/transactions/)
+[Más sobre las transacciones](/developers/docs/transactions/)
 
-## Querying ether {#querying-ether}
+## Consulta del éter {#Consulta del éter}
 
-Users can query the ether balance of any [account](/developers/docs/accounts/) by inspecting the account's `balance` field, which shows ether holdings denominated in wei.
+Los usuarios pueden consultar el saldo de éter de cualquier [cuenta](/developers/docs/accounts/) inspeccionando el campo `balance` de la cuenta, que muestra las tenencias de éter denominadas en wei.
 
-[Etherscan](https://etherscan.io) is a popular tool to inspect address balances via a web-based application. For example, [this Etherscan page](https://etherscan.io/address/0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae) shows the balance for the Ethereum Foundation.
+[Etherscan](https://etherscan.io) es una herramienta popular para inspeccionar los balances de las direcciones a través de una aplicación basada en la web. Por ejemplo, [esta página de Etherscan](https://etherscan.io/address/0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae) muestra el balance de la Fundación Ethereum.
 
-## Further reading {#further-reading}
+## Lectura adicional {#further-reading}
 
-- [Defining Ether and Ethereum](https://www.cmegroup.com/education/courses/introduction-to-ether/defining-ether-and-ethereum.html) – _CME Group_
-- [Ethereum Whitepaper](/whitepaper/): The original proposal for Ethereum. This document includes a description of ether and the motivations behind its creation.
+- [Definición de Ether y Ethereum](https://www.cmegroup.com/education/courses/introduction-to-ether/defining-ether-and-ethereum.html) - _CME Group_
+- [Ethereum Whitepaper](/whitepaper/): La propuesta original de Ethereum. Este documento incluye una descripción del éter y las motivaciones para su creación.
 
-_Know of a community resource that helped you? Edit this page and add it!_
+¿Conoces algún recurso de la comunidad que te haya ayudado? Edita esta página y añádelo.
